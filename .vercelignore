@@ -1,0 +1,9 @@
+node_modules
+dist
+.git
+.vercel
+.vscode
+.env
+.env.*
+!.env.example
+Resume (1).pdf

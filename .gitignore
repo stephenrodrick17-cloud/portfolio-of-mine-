@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vercel/
+.vscode/
+.env
+.env.*
+!.env.example
+Resume (1).pdf
+*.log
+.DS_Store
+Thumbs.db
