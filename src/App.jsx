@@ -10,6 +10,7 @@ import {
   Dna,
   ExternalLink,
   FlaskConical,
+  FileText,
   Mail,
   Menu,
   Microscope,
@@ -427,6 +428,7 @@ function App() {
           <a href="#journey" onClick={closeMenu}>Journey</a>
           <a href="#updates" onClick={closeMenu}>Updates</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
+          <a href="/Stephen_Rodrick_Resume.pdf" target="_blank" rel="noreferrer" onClick={closeMenu}>Résumé ↗</a>
         </nav>
         <a className="availability" href="#contact">
           <span className="availability-dot" /> OPEN TO OPPORTUNITIES
@@ -627,6 +629,11 @@ function App() {
                 <p>Algae Based Biofilter System for Greywater Purification</p>
                 <span className="mono">IJSDR · 2025</span>
               </div>
+              <a className="publication-note" href="/four-years-of-growth.jpg" target="_blank" rel="noreferrer" style={{ textDecoration: "none", display: "block" }}>
+                <span className="mono">RESEARCH TIMELINE</span>
+                <p>Four Years of Growth: Biotech to AI Roadmap</p>
+                <span className="mono">VIEW ROADMAP INFOGRAPHIC ↗</span>
+              </a>
             </aside>
           </div>
         </section>
@@ -682,6 +689,11 @@ function App() {
               <span>{copied ? "Email copied" : "sr5145@srmist.edu.in"}</span>
               <MoveUpRight size={14} />
             </button>
+            <a className="contact-link muted-link" href="/Stephen_Rodrick_Resume.pdf" target="_blank" rel="noreferrer">
+              <span className="contact-link-icon"><FileText size={17} /></span>
+              <span>View / Download Résumé</span>
+              <ExternalLink size={14} />
+            </a>
             <a className="contact-link muted-link" href={linkedin} target="_blank" rel="noreferrer">
               <span className="contact-link-icon"><ArrowUpRight size={17} /></span>
               <span>Connect on LinkedIn</span>
